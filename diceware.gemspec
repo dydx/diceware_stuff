@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'generate diceware style passphrases'
   s.authors     = ['Josh Sandlin']
   s.email       = 'joshua.sandlin@gmail.com'
-  s.foles       = ['lib/diceware.rb']
+  s.files       = ['lib/diceware.rb']
   s.homepage    = 'https://github.com/dydx/diceware_stuff'
   s.license     = 'MIT'
 end
