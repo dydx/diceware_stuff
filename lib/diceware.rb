@@ -27,7 +27,7 @@ class Diceware
   end
 
   def get_word_list
-    Array.new(4) { @wordlist.get_word_by_index(generate_word_index) }
+    generate_word_index_list.map { |index| @wordlist.get_word_by_index(index) }
   end
 end
 
