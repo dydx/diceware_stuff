@@ -4,7 +4,8 @@ This is a fairly simple and possibly naive implementation of the Diceware method
 
 ## Usage
 1. install the package
-2. `diceware = Diceware.new`
+2. `wordlist = WordList.new('/usr/share/dict/words')`
+2. `diceware = Diceware.new(wordlist)`
 3. `passphrase = diceware.generate_passphrase`
 
 ## Caveats
