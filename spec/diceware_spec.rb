@@ -3,7 +3,7 @@ require_relative '../lib/diceware.rb'
 describe Diceware do
 
   before(:all) do
-    @diceware = Diceware.new
+    @diceware = Diceware.new(WordList.new('/usr/share/dict/words'))
   end
 
   context "#new" do

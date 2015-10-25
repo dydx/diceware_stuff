@@ -1,7 +1,7 @@
 class Diceware
 
-  def initialize
-    @wordlist = WordList.new('/usr/share/dict/words')
+  def initialize(wordlist)
+    @wordlist = wordlist
   end
 
   def generate_passphrase
